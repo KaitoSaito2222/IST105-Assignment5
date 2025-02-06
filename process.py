@@ -44,7 +44,7 @@ def treasure_hunt():
         if guess == target:
             html_output += f"""
             <p>-Attempt {attempt_count}: {guess} (Correct!)</p>
-            <p>You fund the treasure in {attempt_count} attempts!</p>"""
+            <p>You found the treasure in {attempt_count} attempts!</p>"""
             return html_output
         else:
             if guess > target:
